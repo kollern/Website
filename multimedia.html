@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Multimedia ♥ Noel Koller</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo"><a href="index.html"> ♥ </a></div>
+    <nav class="nav-main">
+      <ul>
+        <li><a href="produkte.html">Produkte</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="multimedia.html" class="active">Multimedia</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h1>Multimedia</h1>
+      <p>Das ist meine Multimedia Seite Hier sieht ihr ein Video und eine Audio Datei. Hier findet ihr einen kleinen Vorgeschmack was alles mit Multimedia-Inhalten möglich ist, viel Spass.
+</p>
+    </section>
+    <section>
+      <article>
+        <h2>Mediamatiker/in EFZ</h2>
+<div id="videobereich">	
+<iframe class="videoextern" width="640" height="360"
+ src="https://www.youtube.com/embed/Rv33AGA-XHA?rel=0"
+ frameborder="0" allowfullscreen></iframe>
+</div>
+      </article>
+      <article>
+        <h2>Podcast</h2>
+<div class="hideIE11" style="">
+   <audio controls="">
+  <source src="mp3/Pashanim_hauseingang.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+<div class="showIE11" style="display:none;">
+            <a href="http://www.pesano.ch/noel/mp3/Pashanim_hauseingang.mp3" target="_blank" onclick="" class="link">
+                        <i class="fa fa-youtube-play"></i>Noel Musik
+            </a>
+
+</div>
+      </article>
+    </section>
+
+  </main>
+	
+	<script type="text/javascript">
+if(isIE11){
+  $('.showIE11').show();
+}
+if(!isIE11){
+  $('.hideIE11').show();
+}
+
+</script>
+
+  <footer>
+    <a href="http://instagram.com" target="_blank"> <i class="fab fa-instagram-square"></i> </a>
+    <a href="http://facebook.com" target="_blank"> <i class="fab fa-facebook-square"></i> </a>
+    <a href="http://twitter.com" target="_blank"> <i class="fab fa-twitter-square"></i> </a>
+  </footer>
+
+</body>
+
+</html>
